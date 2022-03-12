@@ -1,0 +1,10 @@
+<%-include('header')%>
+<% if(error){ %>
+    <%= error %>
+<% } else { %>
+    Cotação: <%=quote%> <br>
+    Quantidade: <%=amount%> <br>
+    Total: <%=convertion%>
+<% } %>
+
+<%-include('footer')%>
